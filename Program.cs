@@ -1,4 +1,9 @@
-﻿using System;
+﻿// --------------------------------------------------------
+// Copyright (c) Coalition of Good-Hearted Engineers
+// Developed by CashOverflow Team
+// --------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +24,9 @@ namespace Photo
             Photobook photo3 = new BigPhotoBook();
             Console.WriteLine(photo3.GetNumberPages());
 
-            Console.ReadLine();
+            Console.ReadLine()
+
+            Console.WriteLine("Hello World")
 
         }
     }
